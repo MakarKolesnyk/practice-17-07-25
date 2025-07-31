@@ -1,0 +1,97 @@
+.projects>h2 {
+    line-height: 50px;
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.wrapper-projects{
+    display: flex;
+    flex-direction: column;
+}
+
+.project:last-child{
+    display: none;
+}
+
+.project{
+    width: 100%;
+}
+
+.project>img{
+    width: 100%;
+}
+
+.project>h3{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.btns{
+    padding: 12px 0;
+}
+
+.btns>button{
+    border-radius: 32px;
+    padding: 8px 16px;
+    border: none;
+    color: white;
+}
+
+.bg-blue{
+    background-color: #38BDF8;
+}
+
+.bg-red{
+    background-color: #F43F5E;
+}
+
+.bg-black{
+    background-color: #111827;
+}
+
+.bg-yellow{
+    background-color: #F59E0B;
+}
+
+.bg-green{ 
+    background-color: #34D399;
+}
+
+.social>a{
+    font-weight: 600;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.social>a>img{
+    transform: translateY(4px);
+}
+
+.arrow{
+    text-align: right;
+}
+
+.arrow>button{
+    border: none;
+    background-color: transparent;
+}
+
+.prev, .next{
+    background-image: url(./../icons/next.svg);
+    height: 48px;
+    width: 48px;
+    background-size: cover;
+}
+
+.prev{
+    transform: scaleX(-1);
+    display: none;
+}
+
+.mais{
+    height: 48px;
+    transform: translateY(-17px);
+    font-weight: 500;
+}
