@@ -1,0 +1,53 @@
+.big-memoji {
+  display: none;
+}
+
+.sobre > h2 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 50px;
+  font-family: Poppins, sans-serif;
+  background-image: url(./../icons/curle.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding-bottom: 20px;
+}
+
+.wrapper-small-memoji {
+  text-align: center;
+}
+
+.text {
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  padding-left: 17px;
+  background-image: url(./../icons/Decoration.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 5px 100%;
+}
+
+.skils > h3 {
+  text-transform: capitalize;
+  font-size: 36px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+}
+
+.figures {
+  display: flex;
+  justify-content: space-between;
+}
+
+.figures > figure {
+  margin: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.figures > figure > figcaption {
+    transform: translateY(-14px);
+    font-weight: 600;
+}
